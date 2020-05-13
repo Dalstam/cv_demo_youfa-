@@ -1,0 +1,18 @@
+main {
+  display: flex;
+}
+
+.personal_info,
+.cv_details {
+  display: flex;
+  flex-direction: column;
+}
+.personal_info {
+  border: 1px solid blue;
+  margin-right: 25px;
+  width: 33.333%;
+}
+.cv_details {
+  border: 1px solid red;
+  width: 66.66666667%;
+}
